@@ -1,52 +1,114 @@
 body {
-  background: #f9e933;
+	background: #f9e933;
+}
+
+a {
+	color: red;
+	text-decoration: none;
 }
 
 header, main, footer {
-  min-width: 855px;
+	min-width: 855px; 
 }
 
 header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
+	max-width: 855px; 
+	margin: auto;
+}
+
+main .container {
+	margin-top: 7em;
 }
 
 header {
-  background: white;
-  overflow: auto;
+	background: white;
+	overflow: auto;
+}
+
+* {
+	font-family: 'Droid Sans', sans-serif;
 }
 
 header h1 {
-  float: left;
-  width: 570px;
+	float: left;
+	width: 570px;
+	font-size: 42px; 
+	padding-top: 0.5em;
+}
+
+h1 h2 h3 h4 {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header nav {
-  float: right;
-  width: 285px;
+	float: right;
+	width: 285px;
+	margin-top: 42px;
 }
 
 main {
-  background: white;
-  overflow: auto;
+	background: white;
+	overflow: auto;
 }
 
-main .left {
-  float: left;
-  width: 570px;
+main .container {
+	margin-left: 20em;
 }
 
-main .right {
-  float: right;
-  width: 285px;
+main p {
+	padding-right: 300px;
 }
 
-footer .left {
-  float: left;
-  width: 570px;
+
+main h2 {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+main h3 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+main h3 ul p {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#lightbulb {
+	margin-left: 38em;
+	margin-top: -13em;
 }
 
 footer .sitemap {
-  float: right;
-  width: 285px;
+	float: left; 
+	width: 285px;
+	margin-top: 40px;
 }
+
+footer h5 {
+	font-size: 20px; 
+	margin-bottom: 5px;
+}
+
+footer .sitemap .right {
+	float: left;
+	color: red;
+}
+
+footer .sitemap .right2 {
+	float: right;
+	color: red;
+}
+
+footer .left {
+	float: left;
+	width: 570px;
+	margin-top: 40px;
+}
+
+#red {
+	color: red;
+}
+
