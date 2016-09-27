@@ -4,9 +4,10 @@
 		<title> Amazeriffic! </title>
 		<link href = "style.css" rel = "stylesheet" type = "text/css">
 		<link href = "reset.css" rel = "stylesheet" type = "text/css" >
-		<link href="https://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Droid+SansUbuntu" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 		<script src="semantic/dist/semantic.min.js"></script>
+		<meta charset="UTF-8">
 	</head>
 
 	<body>
@@ -22,18 +23,36 @@
 		</header>
 
 		<main> 
-			<div class="ui input">
-			<div class = "container" >
-			<h2> Sign up! </h2>
-			<p> Email: <input type="e-mail" placeholder="jimmyyoon@amazerric.com"></p>
-			<p> Username: <input type="username" placeholder="UserJimmy"> </p>
-			<p> Password: <input type="password" placeholder="Enter Password"> </p>
-			<p> Confirm Password: <input type="password"> </p>
-			<button class="ui button">Sign Up!</button>
+			<div class="ui two column middle aligned very relaxed stackable grid">
+			  <div class="column">
+			    <div class="ui form">
+			      <div class="field">
+			        <label>Username</label>
+			        <div class="ui left icon input">
+			          <input type="text" placeholder="Username">
+			          <i class="user icon"></i>
+			        </div>
+			      </div>
+			      <div class="field">
+			        <label>Password</label>
+			        <div class="ui left icon input">
+			          <input type="password">
+			          <i class="lock icon"></i>
+			        </div>
+			      </div>
+			      <div class="ui blue submit button">Login</div>
+			    </div>
+			  </div>
+			  <div class="ui horizontal divider">
+			    Or
+			  </div>
+			  <div class="center aligned column">
+			    <div class="ui big green labeled icon button">
+			      <i class="signup icon"></i>
+			      Sign Up
+			    </div>
+			  </div>
 			</div>
-			<img src = "lightbulb.png" alt="an image of a lightbulb" >
-			</div>
-
 		</main>
 
 		<footer>
@@ -51,18 +70,13 @@
 			<div class = "sitemap" >
 				<h5> Sitemap </h5>
 				<ul> 
-					<div class = "right">
 					<li> <a href = "index.html"> Home </a></li>
 					<li> <a href = "#"> About Us </a></li>
 					<li> <a href = "#"> Privacy </a></li>
-					</div>
-					<div class = "right2">
 					<li> <a href = "#"> Support </a></li>
 					<li> <a href = "faq.html"> FAQ </a></li>
 					<li> <a href = "#"> Careers </a></li>
-					</div>
 				</ul>
-			</div>
 			</div>
 		</footer>
 	</body>

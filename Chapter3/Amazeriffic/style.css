@@ -51,6 +51,10 @@ main {
 	overflow: auto;
 }
 
+.column {
+	margin-left: 27em;
+}
+
 main .container {
 	margin-left: 20em;
 }
@@ -71,35 +75,26 @@ main h3 {
 	margin-top: 20px;
 }
 
-main h3 ul p {
+main h3 ul {
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
 
 #lightbulb {
-	margin-left: 38em;
-	margin-top: -13em;
+	margin-left: 40em;
+	margin-top: -24em;
 }
 
 footer .sitemap {
-	float: left; 
+	float: left;
 	width: 285px;
 	margin-top: 40px;
+	display: inline-block;
 }
 
 footer h5 {
 	font-size: 20px; 
 	margin-bottom: 5px;
-}
-
-footer .sitemap .right {
-	float: left;
-	color: red;
-}
-
-footer .sitemap .right2 {
-	float: right;
-	color: red;
 }
 
 footer .left {
@@ -108,7 +103,4 @@ footer .left {
 	margin-top: 40px;
 }
 
-#red {
-	color: red;
-}
 
